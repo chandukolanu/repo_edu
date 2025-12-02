@@ -1,0 +1,17 @@
+ hello! welocme to my world. 
+ Please check basic commands for Linux administration.
+ cat <filename>
+ touch <filename>
+ mkdir -r <directory name>
+commands to follow for LVM
+lsblk
+fsblk
+pvcreate
+vgcreate <volume group name>
+vgs --> to chek the status of the current volume group
+lvcreate -L +1G <volume group> <logical volume>
+mkfs ext.4 <vloume group> <logical volume>
+mkdir -r /dev/lvm directory
+cd /dev/lvm directory
+mount -m
+fstab.....
